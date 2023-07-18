@@ -1,24 +1,14 @@
-#build a schema using pydantic
+# build a schema using pydantic
 from pydantic import BaseModel
 
+
 class Category(BaseModel):
-    name : str
+    name: str
+
+    class Config:
+        orm_mode = True
+
 
 class Product(BaseModel):
     name: str
-    category_id :int
-
-# class Book(BaseModel):
-#     title: str
-#     rating: int
-#     author_id: int
-#
-#     class Config:
-#         orm_mode = True
-#
-# class Author(BaseModel):
-#     name:str
-#     age:int
-#
-#     class Config:
-#         orm_mode = True
+    category_id: int

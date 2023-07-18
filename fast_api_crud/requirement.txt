@@ -5,7 +5,6 @@ click==8.1.5
 distlib==0.3.6
 exceptiongroup==1.1.2
 fastapi==0.100.0
-FastAPI-SQLAlchemy==0.2.1
 filelock==3.12.2
 greenlet==2.0.2
 h11==0.14.0
@@ -21,5 +20,3 @@ SQLAlchemy==2.0.19
 starlette==0.27.0
 typing_extensions==4.7.1
 uvicorn==0.23.0
-virtualenv==20.24.0
-virtualenv-clone==0.5.7
